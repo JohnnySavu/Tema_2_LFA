@@ -9,7 +9,6 @@ int main()
     Automata aut;
     fin >> aut;
     aut.print();
-    //aut.delNodes();
     aut.minimizeDFA();
     aut.print();
 }
